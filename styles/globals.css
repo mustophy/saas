@@ -31,6 +31,10 @@ body {
 
 }
 
+.gradient-bg {
+  background: linear-gradient(261.47deg, rgba(21, 25, 52, 0.52) 14.6%, rgba(21, 25, 52, 0.08) 49.66%, rgba(21, 25, 52, 0.49) 87.77%);
+}
+
 a {
   color: inherit;
   text-decoration: none;

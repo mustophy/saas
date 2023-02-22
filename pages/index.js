@@ -4,6 +4,9 @@ import { Navbar } from '@/components/Navbar'
 import Features from '@/components/Features'
 import Footer from '@/components/Footer'
 import NewsLetter from '@/components/NewsLetter'
+import ProductNews from '@/components/ProductNews'
+import Clients from '@/components/Clients'
+import AppSection from '@/components/App'
 
 export default function Home() {
   return (
@@ -18,6 +21,9 @@ export default function Home() {
       <div className='flex flex-col w-[1000px] items-center mx-auto pb-20'>
         <Hero />
         <Features />
+        <AppSection />
+        <ProductNews />
+        <Clients />
         <NewsLetter />
       </div>
       <Footer />
