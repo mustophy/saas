@@ -66,7 +66,7 @@ const Clients = () => {
                         <path d="M8.5 15L1.5 8L8.5 1" stroke="#282D45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </div>
-                <div className="bg-[#0E1330] rounded-lg p-3 border border-[#282D45]">
+                <div className="bg-[#0E1330] rounded-lg p-3 border border-[#282D45] cursor-pointer">
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.5 8H15.5" stroke="#8F9BB7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         <path d="M8.5 1L15.5 8L8.5 15" stroke="#8F9BB7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
