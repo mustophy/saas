@@ -7,13 +7,17 @@
   padding: 0;
   margin: 0;
 }
-
 html,
 body {
   background-color: hsl(231, 73%, 9%);
   color: #8F9BB7;
   overflow-x: hidden;
   min-height: 100vh;
+}
+
+.white {
+  fill: white;
+  stroke: white
 }
 
 .gradient-text {
