@@ -25,13 +25,13 @@ const ProductNews = () => {
                             </div>
                         </div>
                     </div>
-                    <p className="text-lg text-white">Product Mail is taking on Gmail by staking on privacy</p>
-                    <p className="text-[13px] mt-[15px]">Ramet consectetur. Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.</p>
+                    <p className="text-lg text-white cursor-pointer">Product Mail is taking on Gmail by staking on privacy</p>
+                    <p className="text-[13px] mt-[15px]">Ramet consectetur. Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpi</p>
                     <div className="border border-[#282D45] my-5"></div>
                     <div className="flex justify-between">
                         <p>February 8, 2023</p>
                         <div className="flex items-center">
-                            <p className="text-white font-semibold ml-1">Read More</p>
+                            <p className="text-white font-semibold ml-1 cursor-pointer">Read More</p>
                             <RightArrow />
                         </div>
                     </div>
@@ -58,13 +58,13 @@ const ProductNews = () => {
                         </div>
                         <img src="/images/product2.png" alt="" className="w- h-32" />
                     </div>
-                    <p className="text-lg text-white">Wants You To Sign Out Of Google Workspace Forever</p>
+                    <p className="text-lg text-white cursor-pointer">Wants You To Sign Out Of Google Workspace Forever</p>
                     <p className="text-[13px] mt-[15px]">Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.</p>
                     <div className="border border-[#282D45] my-5"></div>
                     <div className="flex justify-between">
                         <p>February 8, 2023</p>
                         <div className="flex items-center">
-                            <p className="text-white font-semibold ml-1">Read More</p>
+                            <p className="text-white font-semibold ml-1 cursor-pointer">Read More</p>
                             <RightArrow />
                         </div>
                     </div>
@@ -84,13 +84,13 @@ const ProductNews = () => {
                             </div>
                         </div>
                     </div>
-                    <p className="text-lg text-white">The Best Email Encryption Services for 2023</p>
+                    <p className="text-lg text-white cursor-pointer">The Best Email Encryption Services for 2023</p>
                     <p className="text-[13px] mt-[15px]">Dorttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.</p>
                     <div className="border border-[#282D45] my-5"></div>
                     <div className="flex justify-between">
                         <p>February 8, 2023</p>
                         <div className="flex items-center">
-                            <p className="text-white font-semibold ml-1">Read More</p>
+                            <p className="text-white font-semibold ml-1 cursor-pointer">Read More</p>
                             <RightArrow />
                         </div>
                     </div>

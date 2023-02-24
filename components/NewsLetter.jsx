@@ -19,30 +19,30 @@ const NewsLetter = () => {
                 <div className="col-span-4 grid grid-cols-3">
                     <div>
                         <p className="mb-8 text-lg">Pages</p>
-                        <p className="text-sm mb-4">Home</p>
-                        <p className="text-sm mb-4">About</p>
-                        <p className="text-sm mb-4">Contact</p>
-                        <p className="text-sm mb-4">Blog</p>
-                        <p className="text-sm mb-4">Blog post</p>
-                        <p className="text-sm mb-4">Pricing</p>
-                        <p className="text-sm mb-4">Pricing single</p>
+                        <p className="text-sm mb-4 cursor-pointer">Home</p>
+                        <p className="text-sm mb-4 cursor-pointer">About</p>
+                        <p className="text-sm mb-4 cursor-pointer">Contact</p>
+                        <p className="text-sm mb-4 cursor-pointer">Blog</p>
+                        <p className="text-sm mb-4 cursor-pointer">Blog post</p>
+                        <p className="text-sm mb-4 cursor-pointer">Pricing</p>
+                        <p className="text-sm mb-4 cursor-pointer">Pricing single</p>
                     </div>
                     <div className="pt-[62px]">
-                        <p className="text-sm mb-4">Features</p>
-                        <p className="text-sm mb-4">Careers</p>
-                        <p className="text-sm mb-4">Careers single</p>
-                        <p className="text-sm mb-4">Request a demo</p>
-                        <p className="text-sm mb-4">Login</p>
-                        <p className="text-sm mb-4">Sign Up</p>
+                        <p className="text-sm mb-4 cursor-pointer">Features</p>
+                        <p className="text-sm mb-4 cursor-pointer">Careers</p>
+                        <p className="text-sm mb-4 cursor-pointer">Careers single</p>
+                        <p className="text-sm mb-4 cursor-pointer">Request a demo</p>
+                        <p className="text-sm mb-4 cursor-pointer">Login</p>
+                        <p className="text-sm mb-4 cursor-pointer">Sign Up</p>
                     </div>
                     <div>
                         <p className="mb-8 text-lg">Utility Pages</p>
-                        <p className="text-sm mb-4">Style guide</p>
-                        <p className="text-sm mb-4">Password protected</p>
-                        <p className="text-sm mb-4">404 not found</p>
-                        <p className="text-sm mb-4">Blog</p>
-                        <p className="text-sm mb-4">Licenses</p>
-                        <p className="text-sm mb-4">Changelog</p>
+                        <p className="text-sm mb-4 cursor-pointer">Style guide</p>
+                        <p className="text-sm mb-4 cursor-pointer">Password protected</p>
+                        <p className="text-sm mb-4 cursor-pointer">404 not found</p>
+                        <p className="text-sm mb-4 cursor-pointer">Blog</p>
+                        <p className="text-sm mb-4 cursor-pointer">Licenses</p>
+                        <p className="text-sm mb-4 cursor-pointer">Changelog</p>
                     </div>
                 </div>
             </div>
@@ -50,16 +50,16 @@ const NewsLetter = () => {
             <div className="flex items-center justify-between">
                 <p className="text-[12px]">Copyright © Product | Designed by <span className="text-white text-[12px]"> Webocean LTD </span> - Powered by <span className="text-white text-[12px]">Webflow</span></p>
                 <div className="grid grid-cols-4 gap-x-[15px]">
-                    <div className="h-[34px] w-[34px] flex items-center justify-center border border-[#282D45] rounded-lg">
+                    <div className="h-[34px] w-[34px] flex items-center justify-center border border-[#282D45] rounded-lg cursor-pointer">
                         <FacebookIcon />
                     </div>
-                    <div className="h-[34px] w-[34px] flex items-center justify-center border border-[#282D45] rounded-lg">
+                    <div className="h-[34px] w-[34px] flex items-center justify-center border border-[#282D45] rounded-lg cursor-pointer">
                         <TwitterIcon />
                     </div>
-                    <div className="h-[34px] w-[34px] flex items-center justify-center border border-[#282D45] rounded-lg">
+                    <div className="h-[34px] w-[34px] flex items-center justify-center border border-[#282D45] rounded-lg cursor-pointer">
                         <LinkedinIcon />
                     </div>
-                    <div className="h-[34px] w-[34px] flex items-center justify-center border border-[#282D45] rounded-lg">
+                    <div className="h-[34px] w-[34px] flex items-center justify-center border border-[#282D45] rounded-lg cursor-pointer">
                         <InstagramIcon />
                     </div>
                 </div>
