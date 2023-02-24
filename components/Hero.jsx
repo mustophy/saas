@@ -6,7 +6,7 @@ const Hero = () => {
             <p className="w-[799px] mx-auto mt-[30px]">Rorem ipsum dolor sit amet consectetur. Gravida convallis orci ultrices non. Ultricies tempor at ut cursus mi. Aliquam sed amet vitae orci ac penatibus consectetur.</p>
             <div className="flex gap-x-[30px] justify-center mt-[30px]">
                 <Button>Get a demo</Button>
-                <Button style={{ backgroundColor: '#060B27'}} className="border">View pricing</Button>
+                <Button style={{ backgroundColor: '#060B27' }} className="border">View pricing</Button>
             </div>
             <div className="mx-auto mt-10">
                 <div className="bg-[#282D45] rounded-t-[5px] pl-[15px] py-[10px]">
@@ -76,6 +76,26 @@ const Hero = () => {
                                 <span className="text-[#41E88D] text-[12px] px-[10px] py-[3px] bg-[#B7FFC41A]/10 rounded-[20px]">+15%</span>
                             </div>
                             <h2 className="text-3xl text-white font-semibold">$158</h2>
+                        </div>
+                    </div>
+                    <div className="py-4 pl-2 pr-4 bg-[#060B27] mt-5 rounded-lg">
+                        <div className="flex items-end">
+                            <div className="w-10 flex flex-col items-end">
+                                <p className="text-xs mb-8">100k</p>
+                                <p className="text-xs mb-8">10k</p>
+                                <p className="text-xs mb-8">5k</p>
+                                <p className="text-xs">0</p>
+                            </div>
+                            <img src="/images/chart.png" className=" ml-2 flex-1" alt="" />
+                        </div>
+                        <div className="flex pl-16 justify-between">
+                            <p className="text-xs">Sat</p>
+                            <p className="text-xs">Sun</p>
+                            <p className="text-xs">Mon</p>
+                            <p className="text-xs">Tue</p>
+                            <p className="text-xs">Wed</p>
+                            <p className="text-xs">Thu</p>
+                            <p className="text-xs">Fri</p>
                         </div>
                     </div>
                 </div>

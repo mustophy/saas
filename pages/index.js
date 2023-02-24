@@ -7,6 +7,8 @@ import NewsLetter from '@/components/NewsLetter'
 import ProductNews from '@/components/ProductNews'
 import Clients from '@/components/Clients'
 import AppSection from '@/components/App'
+import OpenSource from '@/components/OpenSource'
+import Discord from '@/components/Discord'
 
 export default function Home() {
   return (
@@ -18,12 +20,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className='flex flex-col w-[1000px] items-center mx-auto pb-20'>
+      <div className='flex flex-col w-[80%] items-center mx-auto pb-20'>
         <Hero />
         <Features />
         <AppSection />
-        <ProductNews />
+        <OpenSource />
         <Clients />
+        <Discord />
+        <ProductNews />
         <NewsLetter />
       </div>
       <Footer />
